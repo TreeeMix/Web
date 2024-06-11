@@ -18,6 +18,10 @@ header {
   font-size: 14px;
 }
 
+.book-now {
+  display: none;
+}
+
 .logo-header {
   position: sticky;
   left: 146px;
@@ -128,6 +132,11 @@ header {
   .header-button {
     display: none;
   }
+
+  .book-now {
+    display: flex;
+  }
+
 
   .burger {
     display: flex;
