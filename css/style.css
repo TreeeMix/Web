@@ -1,0 +1,38 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.navbar {
+  font-family: "DIN", sans-serif;
+  font-size: 14px;
+  width: 100%;
+  height: 100px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
+}
+
+.navbar .container {
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-header {
+  position: sticky;
+  left: 146px;
+  margin-right: 150px;
+}
+
+.header-group a {
+  vertical-align: top;
+  color: #000;
+  opacity: 0.6;
+  text-decoration: none;
+  padding: 16px;
+  transition: all .05s ease-in-out;
+}
+
+.header-group a:hover {
+  opacity: 1;
+}
