@@ -205,6 +205,16 @@ header {
   text-align: center;
 }
 
+.button-book {
+  position: absolute;
+  left: 10vw;
+  top: 51vw;
+}
+
+.book-container {
+  min-height: 150px;
+}
+
 
 
 @media (max-width:1080px) {
