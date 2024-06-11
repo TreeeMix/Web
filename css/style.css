@@ -122,6 +122,13 @@ header {
   transform: rotate(45deg) translate(0, 50%);
 }
 
+/* img-slide */
+
+.img-slide {
+  display: flex;
+}
+
+
 @media (max-width:1080px) {
 
   .logo-header {
