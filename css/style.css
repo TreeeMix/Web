@@ -36,3 +36,23 @@
 .header-group a:hover {
   opacity: 1;
 }
+
+.logo-denmark {
+  position: sticky;
+  vertical-align: top;
+  width: 15px;
+  height: 15px;
+}
+
+.header-button {
+  background-color: #5B6460;
+  color: #fff;
+  text-decoration: none;
+  position: sticky;
+  padding: 20px 60px;
+  right: 40px;
+}
+
+.header-button:hover {
+  background-color: #3B423F; 
+}
