@@ -153,14 +153,16 @@ header {
 .prev-button,
 .next-button {
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 50px;
-  height: 50px;
+  bottom: 80px;
+  width: 3vw;
+  height: 3vw;
   background-color: transparent;
   border: none;
   font-size: 24px;
   color: white;
+  margin-left: 44vw;
+  margin-right: 44vw;
+
 }
 
 .prev-button {
@@ -182,7 +184,7 @@ header {
   font-style: normal;
   font-weight: 100;
   font-size: 5vw;
-  line-height: 72px;
+  line-height: 5vw;
   text-align: right;
   color: white;
 }
@@ -192,7 +194,7 @@ header {
   height: 72px;
   right: 7vw;
   top: 14vw;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Mulish", sans-serif;
   font-style: normal;
   font-size: 1.5vw;
   font-weight: 100;
