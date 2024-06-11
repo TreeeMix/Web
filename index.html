@@ -2,26 +2,62 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>The Glass Huts</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/denmark.svg">
   </head>
   <body>
-    <header>
-      <nav class="navbar">
-        <div class="container">
-          <img class="logo-header" src="images/logo.svg">
-            <div class="header-group">
-              <a href="#">HOME</a>
-              <a href="#">THE HUT</a>
-              <a href="#">THE AREA</a>
-              <a href="#">BOOKING</a>
-              <a href="#">ABOUT US</a>
-              <a href="#">FAQ</a>
-              <img class="logo-denmark" src="images/denmark.svg">
-            </div>
-          <a class="header-button" href="#">BOOK NOW</a>
-        </div>
+    <header class="header">
+
+      <img class="logo-header" src="images/logo.svg">
+
+      <nav  class="nav">
+
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">THE HUT</a></li>
+          <li><a href="#">THE AREA</a></li>
+          <li><a href="#">BOOKING</a></li>
+          <li><a href="#">ABOUT US</a></li>
+          <li><a href="#">FAQ</a></li>
+          <img class="logo-denmark" src="images/denmark.svg">
+        </ul>
       </nav>
+
+      <a class="header-button" href="#">BOOK NOW</a>
+
+      <div class="burger">
+        <span></span>
+      </div>
+
     </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+      document.querySelector('.burger').addEventListener('click', function(){
+        this.classList.toggle('active');
+        document.querySelector('.nav').classList.toggle('open');
+      })
+    </script>
   </body>
 </html>
