@@ -157,7 +157,7 @@ header {
   color: white;
   margin-left: 44vw;
   margin-right: 44vw;
-
+  opacity: 0.7;
 }
 
 .prev-button {
@@ -166,6 +166,14 @@ header {
 
 .next-button {
   right: 10px;
+}
+
+.prev-button:hover {
+  opacity: 1;
+}
+
+.next-button:hover {
+  opacity: 1;
 }
 
 .text-slider {
@@ -285,6 +293,20 @@ header {
   text-align: center;
 }
 
+.img-Cabins1 {
+  width: 30vw;
+}
+
+.img-Cabins2 {
+  width: 30vw;
+}
+
+.video-Cabins {
+  width: 100%;
+  object-fit: cover;
+  max-width: 30vw;
+  height: 26.9vw;
+}
 
 
 
