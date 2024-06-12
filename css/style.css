@@ -123,17 +123,13 @@ header {
   transform: rotate(45deg) translate(0, 50%);
 }
 
-
-/* img-slide */
-
-
 .page-title {
   text-align: center;
 }
 
 .slider-container {
   position: relative;
-  height: 700px;
+  height: 50vw;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -144,16 +140,15 @@ header {
 }
 
 .slider img {
-
   width: 100%;
-  height: 700px;
+  height: 50vw;
   object-fit: cover;
 }
 
 .prev-button,
 .next-button {
   position: absolute;
-  bottom: 80px;
+  bottom: 5vw;
   width: 3vw;
   height: 3vw;
   background-color: transparent;
@@ -173,15 +168,12 @@ header {
   right: 10px;
 }
 
-/* text-slider */
-
 .text-slider {
   position: absolute;
   height: 72px;
   right: 4vw;
   top: 7vw;
   font-family: "Open Sans", sans-serif;
-  font-style: normal;
   font-weight: 100;
   font-size: 5vw;
   line-height: 5vw;
@@ -206,14 +198,94 @@ header {
 }
 
 .button-book {
-  position: absolute;
+  position: relative;
   left: 10vw;
-  top: 51vw;
+  bottom: 4vw;
+  width: 25vw;
+  cursor: pointer;
 }
 
-.book-container {
-  min-height: 150px;
+.button-book:hover {
+  filter: brightness(0.5);
 }
+
+
+.book-container {
+  min-height: 10vw;
+
+}
+
+
+.container-Cabins {
+  height: 32vw;
+}
+
+.text-Cabins1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  position: absolute;
+  font-style: normal;
+  left: 10vw;
+  top: 5vw;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  color: #5B6460;
+}
+
+.container-text-Cabins {
+  position: absolute;
+  width: 49.5vw;
+  height: 31.7vw;
+}
+
+.container-text-Cabins2 {
+  position: absolute;
+  top: 12vw;
+  left: 10vw;
+  width: 34vw;
+  height: 15vw;
+}
+
+.text-Cabins2 {
+  position: relative;
+  line-height: 2vw;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 1.2vw;
+  color: #000000;
+}
+
+.container-img-Cabins img {
+  position: relative;
+  width: 100%;
+  margin-left: 50vw;
+  width: 50vw;
+  height: 32vw;
+}
+
+.text-read {
+  position: absolute;
+  text-decoration: none;
+  border-bottom: 1.5px solid;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #5B6460;
+  left: 10vw;
+  top: 29vw;
+}
+
+.container-between {
+  min-height: 10vw;
+}
+
+.container-imgs-Cabins {
+  min-height: 27vw;
+  text-align: center;
+}
+
+
 
 
 
