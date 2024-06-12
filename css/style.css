@@ -236,7 +236,7 @@ header {
   left: 10vw;
   top: 5vw;
   font-weight: 400;
-  font-size: 40px;
+  font-size: 3.2vw;
   line-height: 40px;
   color: #5B6460;
 }
@@ -278,7 +278,7 @@ header {
   border-bottom: 1.5px solid;
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 1.3vw;
   color: #5B6460;
   left: 10vw;
   top: 29vw;
@@ -308,6 +308,71 @@ header {
   height: 26.9vw;
 }
 
+.container-Cabins {
+  min-height: 45vw;
+  position: absolute;
+}
+
+.container-img-Forest {
+}
+
+.Forest-img {
+  position: absolute;
+  height: 45vw;
+  filter: brightness(0.6);
+}
+
+.container-text-Forest {
+  position: absolute;
+  left: 49.9vw;
+  width: 50vw;
+  height: 45vw;
+  background-color: #E9ECE0;
+}
+
+.text-Forest1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  position: absolute;
+  font-style: normal;
+  left: 8vw;
+  top: 10vw;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  color: #5B6460;
+  font-size: 3.2vw;
+}
+
+.container-text-Forest2 {
+  position: absolute;
+  top: 16vw;
+  left: 8vw;
+  width: 34.2vw;
+  height: 18vw;
+}
+
+.text-Forest2 {
+    position: relative;
+    line-height: 2.5vw;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 1.2vw;
+    color: #000000;
+}
+
+.text-read-Forest {
+  position: absolute;
+  text-decoration: none;
+  font-style: italic;
+  border-bottom: 1.5px solid;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 1.3vw;
+  color: #5B6460;
+  left: 8vw;
+  top: 36vw;
+}
 
 
 
