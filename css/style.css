@@ -295,12 +295,12 @@ header {
 
 .img-Cabins1 {
   width: 30vw;
-  box-shadow: 1px 1px 10px rgba(0,0,0,.4);
+  box-shadow: 1px 1px 2px rgba(0,0,0,.4);
 }
 
 .img-Cabins2 {
   width: 30vw;
-  box-shadow: 1px 1px 10px rgba(0,0,0,.4);
+  box-shadow: 1px 1px 2px rgba(0,0,0,.4);
 }
 
 .video-Cabins {
@@ -308,15 +308,19 @@ header {
   object-fit: cover;
   max-width: 30vw;
   height: 26.9vw;
-  box-shadow: 1px 1px 10px rgba(0,0,0,.4);
+  box-shadow: 1px 1px 2px rgba(0,0,0,.4);
 }
 
-.container-Cabins {
-  min-height: 45vw;
+.container-Forest {
   position: absolute;
+  width: 100vw;
+  height: 45vw;
 }
 
 .container-img-Forest {
+  position: absolute;
+  height: 45vw;
+  width: 50vw;
   overflow: hidden;
 }
 
@@ -378,10 +382,57 @@ header {
   top: 36vw;
 }
 
-.container-Facilities {
-  height: 50vw;
+.container-between-Forest {
+  width: 100vw;
+  height: 45vw;
 }
 
+.container-Facilities {
+  height: 70vw;
+  background: #5B6460;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+
+.text-Facilities {
+  display: flex;
+  position: absolute;
+  margin-bottom: 45vw;
+  font-size: 3vw;
+  font-weight: lighter;
+}
+
+.Facility-items {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 20vw;
+  padding: 5vw;
+  padding-left: 10vw;
+  width: 65vw;
+  height: 40vw;
+}
+
+.Facility-text {
+  font-weight: 400;
+  margin-top: 1vw;
+  font-size: 1.11vw;
+}
+
+.container-text-Facility {
+
+}
+
+
+.Facility {
+  width: 9vw;
+  height: 6vw;
+  margin-right: 5vw;
+  text-align: center;
+}
 
 
 
