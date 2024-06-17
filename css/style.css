@@ -295,12 +295,10 @@ header {
 
 .img-Cabins1 {
   width: 30vw;
-  box-shadow: 1px 1px 2px rgba(0,0,0,.4);
 }
 
 .img-Cabins2 {
   width: 30vw;
-  box-shadow: 1px 1px 2px rgba(0,0,0,.4);
 }
 
 .video-Cabins {
@@ -308,7 +306,6 @@ header {
   object-fit: cover;
   max-width: 30vw;
   height: 26.9vw;
-  box-shadow: 1px 1px 2px rgba(0,0,0,.4);
 }
 
 .container-Forest {
@@ -422,17 +419,283 @@ header {
   font-size: 1.11vw;
 }
 
-.container-text-Facility {
-
-}
-
-
 .Facility {
   width: 9vw;
   height: 6vw;
   margin-right: 5vw;
   text-align: center;
 }
+
+.container-imgs {
+  position: relative;
+  display: flex;
+  min-height: 40vw;
+}
+
+.container-img1 {
+  height: 40vw;
+  width: 50vw;
+}
+
+.container-img2 {
+  height: 40vw;
+  width: 50vw;
+}
+
+.container-button-about {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 40vw;
+  width: 100%;
+}
+
+.button-about {
+  height: 11vw;
+  width: 11vw;
+}
+
+.button-about:hover {
+  filter: brightness(0.5);
+  cursor: pointer;
+}
+
+.container-stay {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 43vw;
+}
+
+.stay-in-touch {
+  display: flex;
+  justify-content: space-between;
+  height: 25vw;
+  width: 80vw;
+}
+
+.container-stay2 {
+  position: relative;
+  margin-top: 4vw;
+}
+
+.stay-text1 {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3vw;;
+  color: #5B6460;
+}
+
+.stay-text2 {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.2vw;
+  margin-top: 4vw;
+  color: #000000;
+}
+
+.stay-text3 {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.2vw;
+  margin-top: 2vw;
+  color: #000000;
+}
+
+.stay-text4 {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.2vw;
+  margin-top: 0.5vw;
+  color: #000000;
+}
+
+.container-social {
+  height: 4vw;
+  width: 18vw;
+  margin-top: 4vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.socials {
+  cursor: pointer;
+}
+
+.socials:hover {
+  filter: brightness(0.5);
+}
+
+.stay2-img {
+  height: 13vw;
+}
+
+.book-a-hut {
+  position: absolute;
+  height: 9.54vw;
+  right: 0vw;
+  top: 10vw;
+  cursor: pointer;
+}
+
+.book-a-hut:hover {
+  filter: brightness(0.5);
+}
+
+.footer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 35vw;
+  background-color: #5B6460;
+}
+
+.container-footer {
+  display: flex;
+  justify-content: space-between;
+  height: 20vw;
+  width: 80vw;
+}
+
+.footer-text1 {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.2vw;
+  color: #FFFFFF;
+}
+
+.text-field-input {
+  width: 32vw;
+  margin-top: 2vw;
+  padding: 1vw 0;
+  border: 0;
+  outline: 0;
+  border-radius: 0;
+  color: #FFFFFF;
+  background-color: #5B6460;
+  border-bottom: 1px #FFFFFF solid;
+}
+
+.text-field {
+  width: 32vw;
+}
+
+.text-field-placeholder {
+  display: block;
+  position: absolute;
+  top: 12vw;
+  left: 10vw;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  font-weight: 200;
+  font-size: 1.2vw;
+  color: #FFFFFF;
+  pointer-events: none;
+  transform-origin: left;
+  transition: top .3s, transform .3s, color .3s;
+}
+
+.text-field-input:focus + .text-field-placeholder,
+.text-field-input:not(:focus):valid + .text-field-placeholder
+{
+  top: 10vw;
+  transform: scale(.85);
+}
+
+.text-field-arrow {
+  position: absolute;
+  top: 12.5vw;
+  left: 40vw;
+  height: 1vw;
+}
+
+.text-field-arrow:hover {
+  cursor: pointer;
+  filter: brightness(0.7);
+}
+
+.container-footer-text2 {
+  margin-top: 1vw;
+  height: 5vw;
+  width: 32vw;
+}
+
+.footer-text2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2vw;
+  font-weight: 100;
+  line-height: 2vw;
+  color: #FFFFFF;
+  opacity: 0.7;
+}
+
+.footer-text3 {
+  margin-top: 6vw;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2vw;
+  font-weight: 100;
+  line-height: 2vw;
+  color: #FFFFFF;
+  opacity: 0.7;
+}
+
+.container-footer2 {
+}
+
+.container-footer2-text {
+  display: flex;
+  justify-content: space-between;
+  height: 2vw;
+  width: 35vw;
+}
+
+.footer2-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1vw;
+  font-weight: 100;
+  line-height: 2vw;
+  color: #FFFFFF;
+  opacity: 0.7;
+}
+
+.container-footer2-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3vw;
+  height: 3.5vw;
+  width: 23vw;
+  margin-left: 12vw;
+}
+
+.footer2-icon1 {
+  height: 4vw;
+}
+
+.footer2-icon2 {
+  height: 4vw;
+}
+
+.footer2-icon3 {
+  height: 4vw;
+}
+
+.footer2-icon4 {
+  height: 3vw;
+}
+
+
+
+
+
 
 
 
