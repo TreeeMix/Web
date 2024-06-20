@@ -310,6 +310,10 @@ header {
   height: 26.9vw;
 }
 
+.container-between-2 {
+  min-height: 10vw;
+}
+
 .container-Forest {
   position: absolute;
   width: 100vw;
@@ -702,11 +706,6 @@ header {
 
 
 
-
-
-
-
-
 @media (max-width:1080px) {
 
   .logo-header {
@@ -798,11 +797,11 @@ header {
 
   .container-img-Cabins img {
     position: relative;
-    margin-left: 10vw;
-    margin-top: 4vw;
-    height: 50vw;
-    width: 80vw;
-    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.4);
+    margin-left: 2.5vw;
+    margin-top: 0s;
+    height: 70vw;
+    width: 95vw;
+    filter: brightness(0.7);
   }
 
   .container-text-Cabins {
@@ -849,26 +848,26 @@ header {
   }
 
   .img-Cabins1 {
-    width: 80vw;
+    width: 95vw;
     margin: 0;
-    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.4);
+    filter: brightness(0.7);
   }
 
   .img-Cabins2 {
-    width: 80vw;
+    width: 95vw;
     margin: 0;
     margin-top: 10vw;
-    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.4);
+    filter: brightness(0.7);
   }
 
   .video-Cabins {
     width: 100%;
     margin: 0;
     object-fit: cover;
-    max-width: 80vw;
+    max-width: 95vw;
     height: 76.9vw;
     margin-top: 10vw;
-    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.4);
+    filter: brightness(0.7);
   }
 
   .container-Forest {
@@ -923,12 +922,6 @@ header {
     top: 48vw;
   }
 
-
-
-
-
-
-
   .container-Facilities {
     height: 115vw;
     display: flex;
@@ -975,6 +968,298 @@ header {
     height: 9vw;
     margin-right: 5vw;
   }
+
+  .container-imgs {
+    position: relative;
+    min-height: 120vw;
+  }
+
+  .container-img1 {
+    height: 60vw;
+    width: 100vw;
+    filter: brightness(0.7);
+  }
+
+  .container-img2 {
+    position: absolute;
+    margin-top: 30vw;
+    height: 60vw;
+    width: 100vw;
+    filter: brightness(0.7);
+  }
+
+  .container-button-about {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vw;
+    width: 100%;
+    margin-top: 40vw;
+  }
+
+  .button-about {
+    height: 30vw;
+    width: 30vw;
+  }
+
+  .container-stay {
+    position: relative;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    min-height: 90vw;
+  }
+
+  .stay-in-touch {
+    display: flex;
+    justify-content: center;
+    height: 25vw;
+    width: 80vw;
+  }
+
+  .container-stay1 {
+    width: 80vw;
+    margin-top: 5vw;
+    position: absolute;
+
+  }
+
+  .container-stay2 {
+    position: relative;
+    margin-top: 47vw;
+  }
+
+  .stay-text1 {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 5vw;;
+    color: #5B6460;
+  }
+
+  .stay-text2 {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.8vw;
+    margin-top: 4vw;
+    color: #000000;
+  }
+
+  .stay-text3 {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.8vw;
+    margin-top: 2vw;
+    color: #000000;
+  }
+
+  .stay-text4 {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.8vw;
+    margin-top: 0.5vw;
+    color: #000000;
+  }
+
+  .container-social {
+    height: 7vw;
+    width: 25vw;
+    margin-top: 4vw;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .socials {
+    cursor: pointer;
+  }
+
+  .socials:hover {
+    filter: brightness(0.5);
+  }
+
+  .stay2-img {
+    height: 35vw;
+    width: 80vw;
+    filter: brightness(0.7);
+  }
+
+  .book-a-hut {
+    position: absolute;
+    height: 15vw;
+    top: 20vw;
+    bottom: 20vw;
+    left: 0vw;
+    cursor: pointer;
+  }
+
+
+
+
+
+
+  .footer {
+    position: relative;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    min-height: 45vw;
+    background-color: #5B6460;
+    padding-top: 5vw;
+  }
+
+  .container-footer {
+    display: flex;
+    justify-content: center;
+    height: 50vw;
+    width: 80vw;
+  }
+
+  .container-footer1 {
+    position: absolute;
+    width: 80vw;
+  }
+
+  .container-footer2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 35vw;
+    width: 80vw;
+    height: 10vw;
+  }
+
+  .footer-text1 {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3vw;
+    color: #FFFFFF;
+  }
+
+  .text-field-input {
+    width: 52vw;
+    margin-top: 7.4vw;
+    padding: 1vw 0;
+    border: 0;
+    outline: 0;
+    border-radius: 0;
+    color: #FFFFFF;
+    background-color: #5B6460;
+    border-bottom: 1px #FFFFFF solid;
+  }
+
+  .text-field {
+    width: 52vw;
+  }
+
+  .text-field-placeholder {
+    display: block;
+    position: absolute;
+    top: 12vw;
+    left: 0vw;
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+    font-weight: 200;
+    font-size: 1.8vw;
+    color: #FFFFFF;
+    pointer-events: none;
+    transform-origin: left;
+    transition: top .3s, transform .3s, color .3s;
+  }
+
+  .text-field-input:focus + .text-field-placeholder,
+  .text-field-input:not(:focus):valid + .text-field-placeholder
+  {
+    top: 10vw;
+    transform: scale(.85);
+  }
+
+  .text-field-arrow {
+    position: absolute;
+    top: 12.5vw;
+    left: 49vw;
+    height: 1.8vw;
+  }
+
+  .text-field-arrow:hover {
+    cursor: pointer;
+    filter: brightness(0.7);
+  }
+
+  .container-footer-text2 {
+    margin-top: 4vw;
+    height: 5vw;
+    width: 42vw;
+  }
+
+  .footer-text2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.6vw;
+    font-weight: 100;
+    line-height: 2vw;
+    color: #FFFFFF;
+    opacity: 0.7;
+  }
+
+  .footer-text3 {
+    margin-top: 6vw;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.6vw;
+    font-weight: 100;
+    line-height: 2vw;
+    color: #FFFFFF;
+    opacity: 0.7;
+  }
+
+  .container-footer2-text {
+    display: flex;
+    justify-content: space-between;
+    height: 2vw;
+    width: 75vw;
+    padding-right: 5vw;
+    margin-top: 6vw;
+  }
+
+  .footer2-text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5vw;
+    font-weight: 100;
+    line-height: 2vw;
+    color: #FFFFFF;
+    opacity: 0.7;
+  }
+
+  .container-footer2-icons {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 35vw;
+    height: 3.5vw;
+    padding-left: 5vw;
+    margin-top: 5.5vw;
+  }
+
+  .footer2-icon1 {
+    height: 4vw;
+  }
+
+  .footer2-icon2 {
+    height: 4vw;
+  }
+
+  .footer2-icon3 {
+    height: 4vw;
+  }
+
+  .footer2-icon4 {
+    height: 3vw;
+  }
+
 
 
 
